@@ -63,18 +63,13 @@ write_to_excel_file(norm_forms, 1)
 # Get properties
 canonical_smiles = []
 logPs = []
-water_solubilities = []
 molecular_weights = []
-sources = []
-descriptions = []
 
 for cid_number in cid_numbers:
     canonical_smiles.append(get_property('CanonicalSMILES', cid_number))
     logPs.append(get_property('XLogP', cid_number))
-    # TODO: water_solubility
     molecular_weights.append(get_property('MolecularWeight', cid_number))
 
 write_to_excel_file(canonical_smiles, 2)
 write_to_excel_file(logPs, 3)
-# TODO: water_solubility
 write_to_excel_file(molecular_weights, 5)
