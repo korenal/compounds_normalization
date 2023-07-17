@@ -1,7 +1,7 @@
 # Compounds normalization
 
 ### Download
-By "git clone " si stáhnete tento projekt nebo v záložce Realise je uložena přímo aplikace s příponou .exe
+`git clone https://github.com/korenal/compounds_normalization/blob/main/compounds_normalization.py`
 
 ### compounds_normalization.py
 - file with the main code of the program
